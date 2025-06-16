@@ -1,0 +1,62 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #f2f2f2;
+}
+
+header.hero {
+  background: url('images/portada.jpg') no-repeat center/cover;
+  height: 100vh;
+  text-align: center;
+  color: #c9a04c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: 5px;
+}
+
+.slogan {
+  font-size: 1.2em;
+  color: #b23a30;
+}
+
+.boton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #c9a04c;
+  color: #c9a04c;
+  text-decoration: none;
+}
+
+.catalogo, .sobre-nosotros {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.whatsapp img {
+  width: 50px;
+}
